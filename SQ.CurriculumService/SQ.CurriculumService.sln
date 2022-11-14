@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQ.CurriculumService.Web", "SQ.CurriculumService.Web\SQ.CurriculumService.Web.csproj", "{EDAAE8D1-ED82-421E-A49D-4C87A0C66DFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQ.CurriculumService.Web", "SQ.CurriculumService.Web\SQ.CurriculumService.Web.csproj", "{EDAAE8D1-ED82-421E-A49D-4C87A0C66DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQ.CurriculumService.Repository", "SQ.CurriculumService.Repository\SQ.CurriculumService.Repository.csproj", "{475FA114-3DEE-43E3-B451-02397D92EDE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EDAAE8D1-ED82-421E-A49D-4C87A0C66DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDAAE8D1-ED82-421E-A49D-4C87A0C66DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDAAE8D1-ED82-421E-A49D-4C87A0C66DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475FA114-3DEE-43E3-B451-02397D92EDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475FA114-3DEE-43E3-B451-02397D92EDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475FA114-3DEE-43E3-B451-02397D92EDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475FA114-3DEE-43E3-B451-02397D92EDE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
