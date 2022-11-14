@@ -1,8 +1,8 @@
 ﻿namespace SQ.CurriculumService.Web.Models
 {
-    public class TrainingDate
+    public class TrainingDateDto
     {
-        public DateTime Date { get; set; }
+        public DateTime DateTime { get; set; }
         public TimeSpan Duration { get; set; }
     }
 }
